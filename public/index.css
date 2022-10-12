@@ -1,0 +1,21 @@
+.cell {
+    height: 30px; 
+    width: 30px;
+    display: inline-block;
+    display: flex;
+}
+.palette {
+    display: flex;
+    flex-direction: row;
+}
+.active {
+    border: 5px solid hotpink;
+    transform: rotate(45deg);
+    scale: 1.05;
+}
+.grid {
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+

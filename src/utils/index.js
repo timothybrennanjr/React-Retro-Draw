@@ -17,6 +17,7 @@ export const COLORS = [
  * buildCellList creates and returns an 
  * array of empty cell objects
  */
+
 export function buildCellList() {
   const cellList = [];
 
